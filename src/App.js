@@ -6,6 +6,7 @@ import ReactMapExample from './ReactMapExample'
 import ReactFilterDuplicate from './ReactFilterDuplicate'
 import ReactMaptoRemoveDuplicates from './ReactMaptoRemoveDuplicates'
 import ReactReducetoRemoveDuplicates from './ReactReducetoRemoveDuplicates'
+import ReactcomponentDidMount from './ReactcomponentDidMount'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ReactFilterDuplicate/>
       <ReactMaptoRemoveDuplicates/>
       <ReactReducetoRemoveDuplicates/>
+      <ReactcomponentDidMount/>
     </div>
   );
 }
