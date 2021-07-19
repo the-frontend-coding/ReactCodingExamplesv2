@@ -63,7 +63,9 @@ export default class ReactcomponentDidMount extends Component {
                 ))}
             </ul>
             : <div> No user found! </div> }
+            <hr />
             </div>
+            
         )
     }
 }

@@ -7,6 +7,9 @@ import ReactFilterDuplicate from './ReactFilterDuplicate'
 import ReactMaptoRemoveDuplicates from './ReactMaptoRemoveDuplicates'
 import ReactReducetoRemoveDuplicates from './ReactReducetoRemoveDuplicates'
 import ReactcomponentDidMount from './ReactcomponentDidMount'
+import ReactHooksExample1 from './ReactHooksExample1'
+import ReactHooksExample2 from './ReactHooksExample2'
+import ReactHooksExample3 from './ReactHooksExample3'
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
       <ReactMaptoRemoveDuplicates/>
       <ReactReducetoRemoveDuplicates/>
       <ReactcomponentDidMount/>
+      <ReactHooksExample1/>
+      <ReactHooksExample2/>
+      <ReactHooksExample3/>
     </div>
   );
 }
