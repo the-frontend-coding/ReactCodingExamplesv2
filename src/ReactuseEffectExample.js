@@ -28,6 +28,7 @@ function ReactuseEffectExample() {
 
     if(load){
         return(
+            <div>
             <ul>
                 {/*In the below example resulting data is filtered
                 by returning the names those starts with letter "Z"*/}
@@ -37,14 +38,20 @@ function ReactuseEffectExample() {
                     <li key={index}>{filterName.name}</li>
                 ))}
             </ul>
+            <hr />
+            </div>
         )
     }
 
     else{
         return(
-            <div>Loading.....</div>
+            <div>
+            <h5>Loading.....</h5>
+            <hr />
+            </div>
         )
     }
+    <hr />
 }
 
 export default ReactuseEffectExample

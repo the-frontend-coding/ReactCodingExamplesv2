@@ -13,6 +13,7 @@ import ReactHooksExample3 from './ReactHooksExample3'
 import ReactHooksExample4 from './ReactHooksExample4'
 import ReactuseEffect from './ReactuseEffect'
 import ReactuseEffectExample from './ReactuseEffectExample'
+import ReactSelectTag from './ReactSelectTag'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <ReactHooksExample4/>
       <ReactuseEffect/>
       <ReactuseEffectExample/>
+      <ReactSelectTag/>
     </div>
   );
 }

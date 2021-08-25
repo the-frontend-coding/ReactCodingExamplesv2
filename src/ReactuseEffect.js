@@ -23,22 +23,28 @@ function ReactuseEffect() {
 
                 if(Load){
                     return(
+                        <div>
                         <ul>
                         {Error? <li>{Error.message}</li>:
                         Countries.filter((element)=>element.name.length===8)
                         .map((filteredName)=>(
                         <li>{filteredName.name}</li>
                         ))}
-                        </ul>
-                        )
+                        </ul>  
+                        <hr/>
+                        </div>                      
+                        )  
                     }
 
                     else{
                         return(
-                            <div>Loading......</div>
+                            <div>
+                            <h5>Loading......</h5>
+                            <hr/>
+                            </div>
                         )
                     }
-
+                    
     }
 
 export default ReactuseEffect
