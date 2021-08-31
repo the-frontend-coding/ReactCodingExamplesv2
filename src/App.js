@@ -14,25 +14,13 @@ import ReactHooksExample4 from './ReactHooksExample4'
 import ReactuseEffect from './ReactuseEffect'
 import ReactuseEffectExample from './ReactuseEffectExample'
 import ReactSelectTag from './ReactSelectTag'
+import ReactReusableDialogExample from './ReactReusableDialogExample'
 
 function App() {
   return (
     <div className="App">
-      <ReactSpreadOperatrParent/>
-      <ReactSpreadOperator/>
-      <ReactDefaultPropsParent/>
-      <ReactMapExample/>
-      <ReactFilterDuplicate/>
-      <ReactMaptoRemoveDuplicates/>
-      <ReactReducetoRemoveDuplicates/>
-      <ReactcomponentDidMount/>
-      <ReactHooksExample1/>
-      <ReactHooksExample2/>
-      <ReactHooksExample3/>
-      <ReactHooksExample4/>
-      <ReactuseEffect/>
-      <ReactuseEffectExample/>
-      <ReactSelectTag/>
+      <br/>
+      <ReactReusableDialogExample/>
     </div>
   );
 }
