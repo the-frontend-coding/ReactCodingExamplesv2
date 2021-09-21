@@ -16,11 +16,12 @@ import ReactuseEffectExample from "./ReactuseEffectExample";
 import ReactSelectTag from "./ReactSelectTag";
 import ReactReusableDialogExample from "./ReactReusableDialogExample";
 import ReactRouterExample from "./ReactRouterExample";
+import ReactPureComponent from "./ReactPureComponent"
 
 function App() {
   return (
     <div className="App">
-      <ReactRouterExample />
+      <ReactPureComponent/>
     </div>
   );
 }
